@@ -280,7 +280,7 @@ ul {
 /*** RESPONSIVE ***/
 /***** MOBILE *****/
  
-@media (max-width:575px) {
+@media screen and (max-width:575px) {
     section{
 		font-size: 7vw;
 		line-height: 7vw;
@@ -329,16 +329,17 @@ ul {
 	.highlight:before {
 	  content: " ";
 	  display: block;
-	  height: 90%;
+	  height: 55%;
 	  width: 100%;
 	  margin-left: -3px;
 	  margin-right: -3px;
 	  position: absolute;
 	  background: linear-gradient(to right bottom, #5eff6b, #55ed6d, #4edc6e, #49ca6e, #46b96c);
-	  transform: rotate(-1.5deg);
+	  transform: rotate(-1.5deg) translate(0%, 35%) scale(95%);
 	  top: -1px;
 	  left: -1px;
-	  border-radius: 35% 25% 35% 24%;
+//	  border-radius: 35% 25% 35% 24%;
+	  border-radius: 5% 2% 5% 5%;
 	  padding: 5px 3px 3px 5px;
 	}
 
