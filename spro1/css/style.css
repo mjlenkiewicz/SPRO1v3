@@ -12,6 +12,7 @@ body {
 	font-family: Rubik;
     //background: linear-gradient(to right bottom, #ee4444, #f14c49, #f4544e, #f75c53, #fa6358, #fc7256, #fe8055, #ff8e56, #fca756, #f6be5e, #eed56e, #e5ea85) no-repeat center center fixed;
 	background: linear-gradient(to right bottom, #2f4855, #1e707c, #029992, #48c293, #98e885);
+	width: 100vw;
 }	
  
 body::-webkit-scrollbar {
@@ -285,6 +286,7 @@ ul {
 		font-size: 7vw;
 		line-height: 7vw;
 		text-align: center;
+
 	}
 	h1 {
 		font-size: 5.5vw;
