@@ -6,45 +6,6 @@ html {
   overflow: hidden scroll;
 }
 
-/************  Flechas direccionales  ************/
-
-
-@keyframes pulse_up {
-	0% {
-	  transform: translateY(0px) rotate(180deg);
-	}
-	50% {
-	  transform: translateY(15px) rotate(180deg);
-	}
-	100% {
-	  transform: translateY(0px) rotate(180deg);
-	}
-}
-
-@keyframes pulse_down {
-  0% {
-	transform: translateY(15px);
-  }
-  50% {
-	transform: translateY(0px);
-  }
-  100% {
-	transform: translateY(15px);
-  }
-}
-
-    .flecha_arriba {
-		animation: pulse_up 2.5s linear infinite normal;
-		position:fixed;
-		top:2%;
-	  }
-	
-	  .flecha_abajo {
-		animation: pulse_down 2.5s linear infinite normal;
-		position:fixed;
-		bottom: 4%;
-	  }
-  
 body {
     margin: 0;
     padding: 0;
@@ -62,12 +23,12 @@ section {
 	display: flex;
 	flex-wrap: wrap;
     flex-direction: column;
+	min-height: 100vh;	
 	height: 100vh;
+	padding: 5%;
     align-items: center;
 	align-content: center;
     justify-content: center;
-	padding-left: 5%;
-	padding-right: 5%;
 	margin: 0;
 	border: 0;
 	top: 50%;
